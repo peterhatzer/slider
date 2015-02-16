@@ -7,8 +7,8 @@ $.fn.slider = function() {
       nextSlide = $('.slides').first();
     }
 
-    currentSlide.animate({ "left": "-700px" }, "slow" ).removeClass('active');
-    nextSlide.addClass('active');
+    currentSlide.fadeOut(600).removeClass('active');
+    nextSlide.fadeIn(600).addClass('active');
 
 	});
    
