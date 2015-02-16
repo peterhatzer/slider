@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Image slider</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="slideShow" id="slider">
+		<div id="next">next</div>
+		<div id="prev">prev</div>
+		<div class="slides active"><img src="images/Chrysanthemum.jpg"></div>
+		<div class="slides"><img src="images/Desert.jpg"></div>
+		<div class="slides"><img src="images/Hydrangeas.jpg"></div>
+		<div class="slides"><img src="images/Jellyfish.jpg"></div>
+		
+	</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js.js"></script>
+<script type="text/javascript">
+	$( ".slideShow" ).slider();
+</script>
+</body>
+
+</html>

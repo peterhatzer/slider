@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0;}
+#slider	{ width: 700px; height: 525px; margin: 10px auto; position: relative;}
+.slides{ text-align: center; position: absolute; display: none;}
+.slides.active	{display: block}
+.slides img 	{width: 100%;}
+.small-slider	{ width: 800px; margin: 10px auto;}
+.small-slides	{float: left; margin-right: 5px}
+#next	{ color: #fff; position: absolute; z-index: 9999; top: 50%;right: 0;}
+#prev	{color: #fff; position: absolute; z-index: 9999; top: 50%; left: 0;}
